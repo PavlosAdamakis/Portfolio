@@ -1,0 +1,21 @@
+/* src/components/Projects.css */
+.projects-grid {
+    display: grid;
+    /* Adjust columns based on screen size - Mobile-first */
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    gap: 1.5rem;
+  }
+  
+  /* Medium screens and up (e.g., tablets) */
+  @media (min-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+  }
+  
+  /* Large screens and up (e.g., desktops) */
+  @media (min-width: 1024px) {
+    .projects-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+  }

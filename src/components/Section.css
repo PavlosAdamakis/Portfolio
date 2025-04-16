@@ -1,0 +1,18 @@
+/* src/components/Section.css */
+.section {
+    padding: 4rem 2rem; /* More spacing */
+    max-width: 900px; /* Limit width for readability */
+    margin: 2rem auto; /* Center sections */
+    border-bottom: 1px solid #eee; /* Separator */
+  }
+  
+  .section:last-of-type {
+    border-bottom: none; /* No border for the last section */
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+  }
