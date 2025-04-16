@@ -1,21 +1,33 @@
 /* src/components/Projects.css */
-.projects-grid {
-    display: grid;
-    /* Adjust columns based on screen size - Mobile-first */
-    grid-template-columns: 1fr; /* 1 column on small screens */
-    gap: 1.5rem;
+.projects-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 2rem;
   }
   
-  /* Medium screens and up (e.g., tablets) */
+  .projects-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  /* Tablet */
   @media (min-width: 768px) {
     .projects-grid {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   
-  /* Large screens and up (e.g., desktops) */
+  /* Desktop */
   @media (min-width: 1024px) {
     .projects-grid {
-      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      grid-template-columns: repeat(3, 1fr);
     }
   }
+  

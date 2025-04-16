@@ -1,19 +1,19 @@
-/* Add to src/index.css or App.css */
-.button-link {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    cursor: pointer;
-    border: none; /* If using an <a> tag styled as a button */
-    text-align: center;
-}
-
-.button-link:hover {
-    background-color: #0056b3;
-    color: white; /* Ensure text color stays white on hover */
-}
+/* Make the whole app fill the viewport height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Use flex layout */
+  .app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Let main grow and push footer down */
+  .main-content {
+    flex: 1;
+  }
+  

@@ -17,7 +17,7 @@ const projects = [
       title: "Portfolio Website",
       description: "The very website you are looking at, built with React and Vite.",
       tags: ["React", "Vite", "CSS"],
-      githubUrl: "https://github.com/yourusername/my-portfolio"
+      githubUrl: "https://github.com/galactikos4/Portfolio"
     },
     {
         id: 3,

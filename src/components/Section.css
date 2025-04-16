@@ -14,5 +14,14 @@
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
-    color: #333;
+    color: #f2f0f0;
   }
+  .profile-pic {
+    width: 400px;       /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  

@@ -1,16 +1,16 @@
-// src/components/Navbar.jsx
 import React from 'react';
-import './Navbar.css'; // We'll create this soon for styling
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-brand">Pavlos Adamakis</div> {/* Replace with your name/logo */}
+      <Link to="/" className="navbar-brand">Pavlos Adamakis</Link>
       <ul className="navbar-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/cv">CV</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );

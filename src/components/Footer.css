@@ -1,9 +1,17 @@
-/* src/components/Footer.css */
 .footer {
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.4); /* subtle dark transparency */
     text-align: center;
-    padding: 1rem 2rem;
-    margin-top: 3rem;
-    background-color: #f4f4f4;
-    color: #333;
-    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    backdrop-filter: blur(6px);
   }
+  
+  .footer-content {
+    max-width: 900px; /* match your section width */
+    margin: 0 auto;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
