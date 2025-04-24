@@ -28,11 +28,11 @@ function Contact() {
         <p>
           <strong>GitHub:</strong>{' '}
           <a
-            href="https://github.com/galactikos4"
+            href="https://github.com/PavlosAdamakis"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://github.com/galactikos4
+            https://github.com/PavlosAdamakis
           </a>
         </p>
         <p>
