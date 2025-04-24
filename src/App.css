@@ -1,0 +1,19 @@
+/* Make the whole app fill the viewport height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Use flex layout */
+  .app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Let main grow and push footer down */
+  .main-content {
+    flex: 1;
+  }
+  

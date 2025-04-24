@@ -1,0 +1,27 @@
+/* src/components/Section.css */
+.section {
+    padding: 4rem 2rem; /* More spacing */
+    max-width: 900px; /* Limit width for readability */
+    margin: 2rem auto; /* Center sections */
+    border-bottom: 1px solid #eee; /* Separator */
+  }
+  
+  .section:last-of-type {
+    border-bottom: none; /* No border for the last section */
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #f2f0f0;
+  }
+  .profile-pic {
+    width: 400px;       /* Adjust as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  

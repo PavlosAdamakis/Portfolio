@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    line-height: 1.6;
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    color: #00aaff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: 600;
+  }
+  
+  .glass-container {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* For project cards */
+  .project-card {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: rgba(0, 170, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(0, 170, 255, 0.4);
+    border-radius: 8px;
+    font-weight: 600;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+  }
+  
+  .button-link:hover {
+    background: rgba(0, 170, 255, 0.4);
+    transform: translateY(-2px);
+  }
+  

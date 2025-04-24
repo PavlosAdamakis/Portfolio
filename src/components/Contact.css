@@ -1,0 +1,14 @@
+/* src/components/Contact.css */
+.contact-methods p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .contact-methods a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-methods a:hover {
+    text-decoration: underline;
+  }
