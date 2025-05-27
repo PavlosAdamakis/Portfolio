@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import CV from './components/CV';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Certificates from './components/Certificates';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/certificates" element={<Certificates />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/cv" element={<CV />} />
